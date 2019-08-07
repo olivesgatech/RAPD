@@ -3,12 +3,13 @@ Healthcare Intelligence: RAPD Assessment
 
 [OLIVES Lab, Georgia Institute of Technology](https://ghassanalregib.com/)
 
-
-<p align="center"><img src="./Images/rapd_high_level1.png", width="600"></p>
-
+<p align="center"><img src="./Images/eyes.png", width="800"></p>
 
 The goal of this project is to create artifical inteligence and innovative hardware designs for cost-effective, accessible eye care to assist eye care professionals in enhancing vision and preventing blindness. In this study, we focus on pupillary light reflex assessment, which can be an indicator of numerous conditions including but not limited to optic nerve disorders, trauma, autism, alcohol and recreational drugs, exposure to toxins, and response to infections. Specifically, we investigate the RAPD condition, which corresponds to relative afferent pupillary defect. RAPD is based on the differences between the reactions of the eyes when they are exposed to light.
-In healthy subjects, light stimulation on one eye should lead to equal constriction of both pupils and constricted pupils should enlarge equally when there is no stimulation. In case of positive RAPD, patient’s pupils constrict less or do not constrict when light stimuli swings from the unaffected eye to the affected eye as shown above.
+In healthy subjects, light stimulation on one eye should lead to equal constriction of both pupils and constricted pupils should enlarge equally when there is no stimulation. In case of positive RAPD, patient’s pupils constrict less or do not constrict when light stimuli swings from the unaffected eye to the affected eye as shown below.
+
+<p align="center"><img src="./Images/rapd_high_level1.png", width="800"></p>
+
 
 ### Papers
 Please cite:
@@ -48,11 +49,11 @@ convolutional layers that learn visual representations and fully connected layer
 classes. Specifically, we use the AlexNet architecture that is based on five convolutional layers and three fully connected
 layers.  We transformed this object recognition model into a pupil detector with transfer learning as shown below.
 
-<p align="center"><img src="./Images/transfer_learning.png", width="600"></p>
+<p align="center"><img src="./Images/transfer_learning.png", width="800"></p>
 
 Transfer learning of AlexNet resulted in a pupil detection model denoted as RAPDNet. To localize pupils in an image, we scan the image with overlapping patches and classify each patch as pupil or no pupil with RAPDNet. After obtaining a class for each patch, we sort the pupil patches based on their classification confidence and compute the median location of the top-5 pupil patches with the highest confidence as shown below.
 
-<p align="center"><img src="./Images/localization.png", width="600"></p>
+<p align="center"><img src="./Images/localization.png", width="800"></p>
 
 
 
