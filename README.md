@@ -15,7 +15,7 @@ In healthy subjects, light stimulation on one eye should lead to equal constrict
 Please cite:
 
  [Relative Afferent Pupillary Defect Screening
-through Transfer Learning]()
+through Transfer Learning](https://arxiv.org/abs/1908.02300)
   
 ```
 @inproceedings{Temel2019_BHI,
