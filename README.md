@@ -36,6 +36,9 @@ title       = {Automated Pupillary Light Reflex Assessment on a Portable Platfor
 year        = {2019},}
 ```
 
+Our transfer learning-based RAPD screening paper is highlighted on the JBHI EMBS cover page!
+<p align="center"><img src="./Images/jbhi2020_highlight.PNG", width="800"></p>
+
 
 # Benchmarked Algorithms
 * Starburst: Pupil center is initialized as the image center in Stage 1 and rays are projected outwardly from the center to detect edge features via gradients in Stage 2. Then, pupil center is updated with mean feature location as shown with white circle from which rays are projected. These pupil center update and ray projection procedures are iterated until all the gradients are swept in Stage 3. Finally, pupil center is estimated based on mean location of the eventual feature points.
